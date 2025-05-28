@@ -20,7 +20,7 @@ const Friend = ({
 }: Friend) => {
   return (
     <div className="p-4 ">
-      <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden hover:shadow-lg focus-visible:shadow-lg active:shadow-lg transition-shadow duration-300">
         <div className="p-6">
           <h2 className="text-lg font-medium text-gray-900 mb-3">{name}</h2>
           <p className="leading-relaxed mb-3">
